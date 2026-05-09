@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useStore } from '@/store/useStore';
 
-export default function Onboarding() {
+export default function Onboarding({ onComplete }: { onComplete: () => void }) {
   const [step, setStep] = useState(0);
   const [nickname, setNickname] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -23,6 +23,7 @@ export default function Onboarding() {
         
         if (res.ok) {
           updateSettings({ nickname: nickname.trim(), onboardingComplete: true });
+          onComplete();
         } else {
           const data = await res.json();
           alert(data.error || "Rumuz alınamadı.");
