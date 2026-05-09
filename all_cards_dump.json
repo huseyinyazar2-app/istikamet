@@ -1,0 +1,314 @@
+{
+  "cards": [
+    {
+      "id": 9,
+      "text": "Bugün Sabah namazını vaktinde eda ettin mi?"
+    },
+    {
+      "id": 10,
+      "text": "Bugün Öğle namazını vaktinde eda ettin mi?"
+    },
+    {
+      "id": 11,
+      "text": "Bugün İkindi namazını vaktinde eda ettin mi?"
+    },
+    {
+      "id": 12,
+      "text": "Bugün Akşam namazını vaktinde eda ettin mi?"
+    },
+    {
+      "id": 13,
+      "text": "Bugün Yatsı namazını vaktinde eda ettin mi?"
+    },
+    {
+      "id": 14,
+      "text": "Bugün midene haram veya şüpheli bir lokma girmesinden korundun mu?"
+    },
+    {
+      "id": 15,
+      "text": "Bugün birinin gıybetini yaptın mı veya yapılan gıybeti onaylayarak dinledin mi?"
+    },
+    {
+      "id": 16,
+      "text": "Bugün şaka yollu veya menfaat icabı da olsa yalan söyledin mi?"
+    },
+    {
+      "id": 17,
+      "text": "Bugün anne-babanın kalbini kıracak veya eşine/çevrene zulmedecek bir söz söyledin mi?"
+    },
+    {
+      "id": 18,
+      "text": "Bugün verdiğin bir sözden caydın mı veya emanete hıyanet ettin mi?"
+    },
+    {
+      "id": 19,
+      "text": "Bugün kendini başkalarından üstün, haklı veya daha dindar görüp içinden insanları küçümsedin mi?"
+    },
+    {
+      "id": 20,
+      "text": "Bugün başkasının sahip olduğu bir nimeti içinden kıskanıp, 'Neden bende yok?' diye düşündün mü?"
+    },
+    {
+      "id": 21,
+      "text": "Bugün yaptığın bir ibadeti veya iyiliği başkaları görsün, beğensin diye yaptın mı?"
+    },
+    {
+      "id": 22,
+      "text": "Bugün kıldığın namaza veya yaptığın hayra güvenip 'Ben iyi biriyim' diyerek nefsini beğendin mi?"
+    },
+    {
+      "id": 23,
+      "text": "Bugün bir Müslüman kardeşin hakkında kesin bir delil olmadan kötü bir zanda bulundun mu?"
+    },
+    {
+      "id": 24,
+      "text": "Bugün karşılaştığın bir dert karşısında Allah'ın rahmetinden ümidini kesip isyana yaklaştın mı?"
+    },
+    {
+      "id": 25,
+      "text": "Bugün namahreme bakmaktan (göz zinasından) kendini koruyabildin mi?"
+    },
+    {
+      "id": 26,
+      "text": "Bugün ahiretine veya dünyana faydası olmayan boş işlerle vaktini israf ettin mi?"
+    },
+    {
+      "id": 27,
+      "text": "Bugün haksız yere öfkelenip sesini yükselttin mi?"
+    },
+    {
+      "id": 28,
+      "text": "Bugün yemeği veya suyu gereksiz yere çöpe atıp israf ettin mi?"
+    },
+    {
+      "id": 29,
+      "text": "Bugün vaktini sosyal medyada veya faydasız işlerde öldürüp zaman israfı yaptın mı?"
+    },
+    {
+      "id": 30,
+      "text": "Bugün hiç ihtiyacın olmadığı halde sırf nefsin istediği için gereksiz alışveriş (mal israfı) yaptın mı?"
+    },
+    {
+      "id": 31,
+      "text": "Bugün karşılaştığın zorluklar karşısında 'Neden hep benim başıma geliyor' diyerek Allah'ın takdirine isyan ettin mi?"
+    },
+    {
+      "id": 32,
+      "text": "Bugün başkasının özel hayatını, ayıplarını veya sırlarını gizlice merak edip araştırdın mı (Tecessüs)?"
+    },
+    {
+      "id": 33,
+      "text": "Bugün zinaya veya insanı o çirkin yola sürükleyecek flört/yakınlaşmalara bulaştın mı?"
+    },
+    {
+      "id": 34,
+      "text": "Bugün faiz (riba) alarak, vererek veya faizli bir işleme bilerek aracılık ederek Allah ve Resulüne savaş açanlardan oldun mu?"
+    },
+    {
+      "id": 35,
+      "text": "Bugün başkasının malına, fikrine veya zamanına haksız yere el uzatıp (maddi/manevi hırsızlık yapıp) kul hakkına girdin mi?"
+    },
+    {
+      "id": 36,
+      "text": "Bugün aklını ve iradeni uyuşturan, haram kılınmış içki vb. maddelere yaklaştın mı veya bu tarz ortamlarda bulundun mu?"
+    },
+    {
+      "id": 37,
+      "text": "Bugün piyango, iddia veya herhangi bir kumar/şans oyunu türüyle rızkını harama bulaştırdın mı?"
+    },
+    {
+      "id": 38,
+      "text": "Bugün Allah'ın emanet ettiği bedenine zarar veren (sigara vb.) kötü alışkanlıklara teslim oldun mu?"
+    },
+    {
+      "id": 39,
+      "text": "Bugün Allah'ın sana emanet ettiği bedeninin fıtratını bozacak, kalıcı hasar veren dövme vb. bir işlem yaptırdın veya buna onay verdin mi?"
+    },
+    {
+      "id": 40,
+      "text": "Bugün eşine (veya aile fertlerine) tahammülsüzlük gösterip, kalp kıracak şekilde sesini yükselttin mi?"
+    },
+    {
+      "id": 41,
+      "text": "Bugün çocuklarına (veya senden küçüklere) şefkatle yaklaşmak yerine haksız yere öfkelenip onları azarladın mı?"
+    },
+    {
+      "id": 42,
+      "text": "Bugün dilini bozup öfkeyle veya şaka yollu bir başkasına küfür, hakaret veya çirkin söz söyledin mi?"
+    },
+    {
+      "id": 43,
+      "text": "Bugün birinin fiziksel kusuruyla, şivesiyle veya hatasıyla (şaka yollu bile olsa) alay ettin mi?"
+    },
+    {
+      "id": 44,
+      "text": "Bugün bir Müslüman kardeşine, onun hoşlanmayacağı kötü bir lakapla seslendin mi veya arkasından onu o lakapla andın mı?"
+    },
+    {
+      "id": 45,
+      "text": "Bugün kalbinde sana haksızlık etmiş birine karşı (özür dilese bile) kin tutup, onu affetmemekte ısrar ettin mi?"
+    },
+    {
+      "id": 46,
+      "text": "Bugün sana iyilik yapan bir insana (veya Allah'a) teşekkür etmeyip nankörlük ettin mi?"
+    },
+    {
+      "id": 47,
+      "text": "Bugün yardım veya ikram etme imkanın olduğu halde, sırf malın eksilir korkusuyla cimrilik edip elini sıktın mı?"
+    },
+    {
+      "id": 48,
+      "text": "Gizli Şirk: Bugün hastalandığında veya iyileştiğinde, şifayı asıl veren Allah'ı unutup sadece ilaçtan veya doktordan bildin mi?"
+    },
+    {
+      "id": 49,
+      "text": "Gizli Şirk: Bugün kazandığın rızkı ve maaşı sana verenin Allah olduğunu unutup, sadece patronundan veya mesleğinden bildin mi?"
+    },
+    {
+      "id": 50,
+      "text": "Gizli Şirk: Bugün elde ettiğin bir başarıda 'Bunu ben kendi zekam ve gücümle başardım' diyerek Karun gibi Allah'ın yardımını inkar ettin mi?"
+    },
+    {
+      "id": 51,
+      "text": "Bugün işteyken (veya dersteyken) sana emanet edilen mesai saatini, şahsi keyfin veya sosyal medyan için israf edip kul hakkına girdin mi?"
+    },
+    {
+      "id": 52,
+      "text": "Bugün yaptığın işte veya ticarette, karşı tarafı eksik, kusurlu veya hatalı bir işlemle bilerek aldattın mı?"
+    },
+    {
+      "id": 53,
+      "text": "Bugün elinde ödeme imkânı olduğu halde, sırf kendi rahatın için bir borcunu (kul hakkını) erteleyip alacaklıyı mağdur ettin mi?"
+    },
+    {
+      "id": 54,
+      "text": "Bugün liyakat (hak etme) esasına dayanmayan bir şekilde, haksız bir iltimas (torpil) ile başkasının önüne geçtin mi veya aracılık ettin mi?"
+    },
+    {
+      "id": 55,
+      "text": "Bugün sosyal medyada doğruluğundan emin olmadığın bir haberi (iftirayı) paylaştın mı veya klavye başında birini linç eden kalabalığa katıldın mı?"
+    },
+    {
+      "id": 56,
+      "text": "Bugün emeğe saygı göstermeyerek; korsan yazılım, kaçak dizi/film veya telif hakkı ihlali içeren bir içeriği tüketip kul hakkına girdin mi?"
+    },
+    {
+      "id": 57,
+      "text": "Bugün yediğin bir yemeği, gittiğin mekanı veya yaptığın bir ibadeti sırf 'bakın ben ne kadar iyiyim/zenginim' diyerek (Riya) sosyal medyada paylaştın mı?"
+    },
+    {
+      "id": 58,
+      "text": "Bugün yere çöp atarak, sıraya kaynak yaparak veya trafikte kuralları ezip bencilce davranarak diğer insanların ortak hakkına tecavüz ettin mi?"
+    },
+    {
+      "id": 59,
+      "text": "Bugün Allah'ın dilsiz kulları olan sokak hayvanlarına eziyet ettin mi veya kapısındaki aç/susuz bir hayvanı görmezden geldin mi?"
+    },
+    {
+      "id": 60,
+      "text": "Bugün gürültü yaparak, çöpünü özensiz bırakarak veya herhangi bir bencil eyleminle komşuna rahatsızlık verip onun hakkına girdin mi?"
+    }
+  ],
+  "takva": [
+    {
+      "id": 5,
+      "text": "Bugün Teheccüd namazına (veya gecenin bir vakti duaya) kalkabildin mi?"
+    },
+    {
+      "id": 6,
+      "text": "Bugün sağ elin verdiğini sol el görmeyecek gizlilikte bir sadaka verdin mi?"
+    },
+    {
+      "id": 7,
+      "text": "Bugün Kuran-ı Kerim'den en az bir sayfa okuyup, bir ayetin manasını derinlemesine tefekkür ettin mi?"
+    },
+    {
+      "id": 8,
+      "text": "Bugün sabah ve akşam zikirlerini (virdlerini/tesbihatını) eksiksiz yaptın mı?"
+    },
+    {
+      "id": 9,
+      "text": "Bugün hiç tanımadığın birine tebessüm edip selam verdin mi?"
+    },
+    {
+      "id": 10,
+      "text": "Bugün şüpheli (haram olma ihtimali olan) bir ortama veya eyleme yaklaştın mı?"
+    },
+    {
+      "id": 11,
+      "text": "Bugün tartışma anında haklı bile olsan, nefsine yenik düşüp tartışmayı uzattın mı?"
+    },
+    {
+      "id": 12,
+      "text": "Bugün güneş doğduktan sonra Duha (Kuşluk) veya İşrak namazı kıldın mı?"
+    },
+    {
+      "id": 13,
+      "text": "Bugün Akşam ile Yatsı namazı arasında Evvabin namazı kıldın mı?"
+    },
+    {
+      "id": 14,
+      "text": "Dün gece uyumadan önce abdest alıp, dualarını okuyarak sünnete uygun uyudun mu?"
+    },
+    {
+      "id": 15,
+      "text": "Bugün yemeğe Besmele ile başlayıp, sağ elinle yiyip sonunda Elhamdülillah diyerek sünneti ihya ettin mi?"
+    },
+    {
+      "id": 16,
+      "text": "Bugün Sabah namazını camide cemaatle kıldın mı?"
+    },
+    {
+      "id": 17,
+      "text": "Bugün Öğle namazını camide cemaatle kıldın mı?"
+    },
+    {
+      "id": 18,
+      "text": "Bugün İkindi namazını camide cemaatle kıldın mı?"
+    },
+    {
+      "id": 19,
+      "text": "Bugün Akşam namazını camide cemaatle kıldın mı?"
+    },
+    {
+      "id": 20,
+      "text": "Bugün Yatsı namazını camide cemaatle kıldın mı?"
+    },
+    {
+      "id": 21,
+      "text": "Bugün anne-babanı, akrabanı veya eski bir dostunu sırf Allah rızası için arayıp halini sordun mu?"
+    },
+    {
+      "id": 22,
+      "text": "Bugün genel olarak evden çıkarken abdestli bulunmaya özen gösterdin mi?"
+    },
+    {
+      "id": 23,
+      "text": "Bugün nafile oruç tuttun mu?"
+    },
+    {
+      "id": 24,
+      "text": "Bugün dini bir sohbete (ilim meclisine) katıldın mı?"
+    },
+    {
+      "id": 25,
+      "text": "Bugün dini bir program veya sohbet izledin/dinledin mi?"
+    },
+    {
+      "id": 26,
+      "text": "Bugün dini bir kitap (Kur'an tefsiri, hadis, fıkıh, ilmihal vb.) okudun mu?"
+    },
+    {
+      "id": 27,
+      "text": "Bugün göz ucuyla da olsa başkasının telefon ekranına, özel mesajına veya evinin içine izinsiz baktın mı?"
+    },
+    {
+      "id": 28,
+      "text": "Bugün bulunduğun bir ortamda, haksız yere eleştirilen bir kardeşi savunma imkanın varken sessiz kaldın mı?"
+    },
+    {
+      "id": 29,
+      "text": "Bugün kâinata, yaratılışa veya başından geçen bir olaya İslami bir nazarla bakıp Allah'ın azametini tefekkür ettin mi?"
+    }
+  ]
+}
