@@ -22,7 +22,7 @@ export default function Onboarding({ onComplete }: { onComplete: () => void }) {
         });
         
         if (res.ok) {
-          updateSettings({ nickname: nickname.trim(), onboardingComplete: true });
+          updateSettings({ nickname: nickname.trim() });
           onComplete();
         } else {
           const data = await res.json();
