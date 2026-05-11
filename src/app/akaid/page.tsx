@@ -128,20 +128,22 @@ export default function AkaidTest() {
       <motion.div 
         animate={shakeAnimation}
         style={{ 
-          background: isAnswered ? (isWrong ? 'rgba(255,50,50,0.1)' : 'rgba(50,255,50,0.1)') : 'var(--bg-secondary)', 
-          border: isAnswered ? (isWrong ? '1px solid var(--accent-danger)' : '1px solid var(--accent-green)') : '1px solid rgba(255,255,255,0.1)',
-          padding: '30px 20px', 
-          borderRadius: '16px', 
+          background: isAnswered ? (isWrong ? 'rgba(255,50,50,0.05)' : 'rgba(50,255,50,0.05)') : 'rgba(30,30,35,0.7)', 
+          border: isAnswered ? (isWrong ? '1px solid rgba(255,50,50,0.3)' : '1px solid rgba(50,255,50,0.3)') : '1px solid rgba(255,255,255,0.1)',
+          backdropFilter: 'blur(16px)',
+          WebkitBackdropFilter: 'blur(16px)',
+          padding: '30px 24px', 
+          borderRadius: '24px', 
           width: '100%', 
-          maxWidth: '400px',
-          boxShadow: '0 8px 32px rgba(0,0,0,0.3)',
+          maxWidth: '450px',
+          boxShadow: '0 10px 40px rgba(0,0,0,0.4)',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           gap: '24px'
         }}
       >
-        <p style={{ color: 'white', fontSize: '18px', lineHeight: '1.6', textAlign: 'center', fontWeight: '500' }}>
+        <p style={{ color: 'rgba(255,255,255,0.95)', fontSize: '20px', lineHeight: '1.6', textAlign: 'center', fontWeight: '500', letterSpacing: '0.3px' }}>
           "{card.statement}"
         </p>
 
@@ -185,33 +187,35 @@ export default function AkaidTest() {
               </div>
             ) : (
               <>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 5 }}>
-                  {userChoice === 'bilmiyorum' ? (
-                    <span style={{ color: 'var(--accent-gold)', fontWeight: 'bold', fontSize: '20px' }}>Öğrenme Vakti!</span>
-                  ) : (
-                    <span style={{ color: 'var(--accent-danger)', fontWeight: 'bold', fontSize: '20px' }}>Yanlış Cevap!</span>
-                  )}
-                  <span style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Hakikat: {card.isTrue ? "Doğru" : "Yanlış"}</span>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: 15 }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                    {userChoice === 'bilmiyorum' ? (
+                      <span style={{ color: 'var(--accent-gold)', fontWeight: 'bold', fontSize: '18px' }}>Öğrenme Vakti</span>
+                    ) : (
+                      <span style={{ color: 'var(--accent-danger)', fontWeight: 'bold', fontSize: '18px' }}>Yanlış Cevap</span>
+                    )}
+                    <span style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>Hakikat: {card.isTrue ? "Doğru" : "Yanlış"}</span>
+                  </div>
+                  <button 
+                    className="button" 
+                    onClick={nextCard}
+                    style={{ padding: '10px 20px', background: 'var(--accent-gold)', color: 'black', fontWeight: 'bold', fontSize: '14px', borderRadius: '30px', display: 'flex', alignItems: 'center', gap: 6, boxShadow: '0 4px 12px rgba(212,175,55,0.3)' }}
+                  >
+                    Geç <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
                 </div>
 
-                <div style={{ background: 'var(--bg-primary)', padding: '16px', borderRadius: '12px', borderLeft: '4px solid var(--accent-gold)' }}>
-                  <p style={{ color: 'white', fontSize: '15px', lineHeight: '1.6', marginBottom: '12px' }}>
+                <div className="custom-scrollbar" style={{ background: 'rgba(0,0,0,0.2)', padding: '20px', borderRadius: '16px', borderLeft: '4px solid var(--accent-gold)', maxHeight: '45vh', overflowY: 'auto' }}>
+                  <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '15px', lineHeight: '1.7', marginBottom: '16px' }}>
                     {card.explanation}
                   </p>
-                  <div style={{ background: 'rgba(212, 175, 55, 0.1)', padding: '10px', borderRadius: '8px' }}>
-                    <p style={{ color: 'var(--accent-gold)', fontSize: '14px', fontStyle: 'italic', margin: 0, lineHeight: 1.5 }}>
-                      {card.proof}
+                  <div style={{ background: 'rgba(212, 175, 55, 0.08)', padding: '14px 16px', borderRadius: '12px', border: '1px solid rgba(212,175,55,0.2)' }}>
+                    <p style={{ color: 'var(--accent-gold)', fontSize: '14px', fontStyle: 'italic', margin: 0, lineHeight: 1.6, display: 'flex', gap: 10 }}>
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ flexShrink: 0, marginTop: 2 }}><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                      <span>{card.proof}</span>
                     </p>
                   </div>
                 </div>
-
-                <button 
-                  className="button button-primary" 
-                  onClick={nextCard}
-                  style={{ width: '100%', padding: '14px', marginTop: '10px', background: 'white', color: 'black' }}
-                >
-                  Sıradaki Soru
-                </button>
               </>
             )}
           </motion.div>
